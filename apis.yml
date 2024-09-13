@@ -1,0 +1,21 @@
+aid: teams
+name: Teams
+type: Common
+description: |-
+  This is a schema to help manage the teams who are involved with producing an API, helping provide more details, collaboration, and communication across the API lifecycle.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+- Teams
+- Business
+created: '2024-09-13'
+modified: '2024-09-13'
+url: https://github.com/api-commons/teams/blob/main/apis.yml
+specificationVersion: '0.18'
+common:
+- type: JSONSchema
+  url: https://github.com/api-commons/teams/blob/main/team-schema.yml
+- type: Example
+  url: https://github.com/api-commons/teams/blob/main/team-example.yml  
+maintainers:
+- FN: API Commons
+  email: info@apievangelist.com

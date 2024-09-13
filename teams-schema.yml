@@ -1,0 +1,27 @@
+---
+"$id": https://github.com/api-commons/teams/blob/main/teams-schema.yml
+"$schema": https://json-schema.org/draft/2020-12/schema
+title: Team
+type: object
+properties:
+  identifier:
+    type: string
+    description: A unique identifier for the team member, allowing them to be easily referenced.
+  name:
+    type: string
+    description: A full name for the team member, defining the person who is part of the team.
+  role:
+    description: The role the team member plays in the wider organization, but also the team level.
+    type: string
+  gitHub:
+    description: The full URL to the GitHub user for a team member, allow for easy inclusion.
+    type: string   
+  linkedIn:
+    description: The full URL to the LinkedIn user for a team member, allow for easy reference.
+    type: string
+  email:
+    description: The email address for a team member, allowing for easy communication.
+    type: string
+  description:
+    description: A description of the team member and their contribution as part of the team.
+    type: string
